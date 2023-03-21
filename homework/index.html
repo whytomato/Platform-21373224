@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>百度一下，你就知道</title>
+    <link href="附件/style.css" type="text/css" rel="stylesheet" />
+    <script src="附件/index.js"></script>
+</head>
+
+<body>
+    <div class="web-outer">
+        <div id="head">
+            <div id="top-left">
+                <a href="http://news.baidu.com/" target="_blank">新闻</a>
+                <a href="https://www.hao123.com" target="_blank">hao123</a>
+                <a href="http://map.baidu.com" target="_blank">地图</a>
+                <a href="http://tieba.baidu.com" target="_blank">贴吧</a>
+                <a href="https://haokan.baidu.com/" target="_blank">视频</a>
+                <a href="http://image.baidu.com/" target="_blank">图片</a>
+                <a href="https://pan.baidu.com/" target="_blank">网盘</a>
+            </div>
+            <div id="top-right">
+                <div id="top-login-btn">登录</div>
+            </div>
+        </div>
+        <div id="outer-mid">
+            <div id="mid">
+                <div id="logo-outer">
+                    <figure id="logo" title="点击一下，了解更多"></figure>
+                </div>
+                <div id="search-div">
+                    <div id="search-input">
+                        <input />
+                        <div id="search-btn">百度一下</div>
+                    </div>
+                </div>
+                <!-- <div id="hot-title">百度热榜</div> -->
+                <div>
+                    <div style="display: flex; align-items: center;">
+                        <div style="margin-top: 5px;">
+                            <img src="img/game.png" alt="your-image-description" width="40" />
+                        </div>
+                        <div>
+                            <span
+                                style="color: rgb(103, 132, 194); font-size: larger">&nbsp;&nbsp;热榜之21373224分榜&nbsp;&nbsp;</span>
+                            <a href="https://b23.tv/cB9nZqO"><span style="color: gray;">更多</span></a>
+                        </div>
+                        <div style="margin-top: 7px;">
+                            <a href="#"><img src="img/right.png" alt="your-image-description" width="15" /></a>
+                        </div>
+                    </div>
+                    <!-- <ul id="hot"> -->
+                    <!-- <li>
+                            <span class="hot-order hot-order-1">1</span><span class="hot-content">沙伊两国在北京握手言和</span><span class="hot-tag hot">热</span>
+                        </li>
+                        <li>
+                            <span class="hot-order">4</span><span class="hot-content">TES主教练暂离赛场</span>
+                        </li> -->
+                    <!-- TODO: 完成剩余部分的代码 -->
+                    <!-- </ul> -->
+                    <div>
+                        <ul id="hot">
+                            <style>
+                                a:link {
+                                    color: black;
+                                    /* 未点击的链接颜色 */
+                                    text-decoration: none;
+                                    /* 去除未点击链接的下划线 */
+                                }
+
+                                a:visited {
+                                    color: black;
+                                    /* 已点击的链接颜色 */
+                                    text-decoration: underline;
+                                    /* 添加已点击链接的下划线 */
+                                }
+
+                                a:hover {
+                                    color: blue;
+                                    /* 鼠标悬停时链接颜色 */
+                                }
+                            </style>
+                            <li>
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="https://ys.mihoyo.com/" target="_blank"><span
+                                            class="hot-order hot-order-1">1</span><span
+                                            class="hot-content">原神</span></a>
+                                    <span style="text-align: right; color: gray">78999999<img src="img/up.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="https://xc.xd.com/" target="_blank"><span
+                                            class="hot-order hot-order-2">2</span><span
+                                            class="hot-content">香肠派对</span></a>
+                                    <span style="text-align: right; color: gray">101112<img src="img/heng.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: rgb(237, 188, 97)">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="https://pvp.qq.com/" target="_blank"><span
+                                            class="hot-order hot-order-3">3</span><span
+                                            class="hot-content">王者荣耀</span></a>
+                                    <span style="text-align: right; color: gray">12333<img src="img/up.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="https://www.minecraft.net/zh-hans" target="_blank"><span
+                                            class="hot-order">4</span><span class="hot-content">我的世界</span></a>
+                                    <span style="text-align: right; color: gray">4567<img src="img/heng.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="#" target="_blank"><span class="hot-order">5</span><span
+                                            class="hot-content">和平精英</span></a>
+                                    <span style="text-align: right; color: gray">1314<img src="img/up.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="#" target="_blank"><span class="hot-order">6</span><span
+                                            class="hot-content">植物大战僵尸</span></a>
+                                    <span style="text-align: right; color: gray">1516<img src="img/heng.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="#" target="_blank"><span class="hot-order">7</span><span
+                                            class="hot-content">迷你世界</span></a>
+                                    <span style="text-align: right; color: gray">1718<img src="img/up.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="#" target="_blank"><span class="hot-order">8</span><span
+                                            class="hot-content">光遇</span></a>
+                                    <span style="text-align: right; color: gray">1920<img src="img/heng.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="#" target="_blank"><span class="hot-order">9</span><span
+                                            class="hot-content">泰拉瑞亚</span></a>
+                                    <span style="text-align: right; color: gray">2122<img src="img/up.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                            <li style="color: gray">
+                                <div style="display: flex; justify-content: space-between">
+                                    <a href="#" target="_blank"><span class="hot-order">10</span><span
+                                            class="hot-content">绝地求生</span></a>
+                                    <span style="text-align: right; color: gray">2324<img src="img/heng.png"
+                                            alt="your-image-description" width="20px"
+                                            style="vertical-align: middle; margin-top: -6px;"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">本网页仅用于软工实验使用</div>
+            <!-- 引入核心代码，请不要修改 -->
+            <script src="code/index.js"></script>
+        </div>
+        <style>
+            #logo {
+                background-image: url("./img/logo.png");
+            }
+        </style>
+</body>
+
+</html>
