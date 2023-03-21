@@ -212,7 +212,7 @@ body {
 
 #hot li {
     width: 268px;
-    height: 32px;
+    /* height: 100px; */
     list-style: none;
     line-height: 32px;
     font-size: 15px;
@@ -242,7 +242,15 @@ body {
 }
 
 #hot li .hot-order-1 {
-    color: #fe2d46;
+    /* color: #fe2d46; */
+    color: white;
+    background-color: red;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    position: absolute;
 }
 
 #hot li .hot-order-2 {
